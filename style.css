@@ -16,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-/* --navbsr--- */
+/* --navbar--- */
 .container {
     display: flex;
     align-items: center;
@@ -153,4 +153,72 @@ body {
     bottom: -67px;
     right: 20px;
     transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 640px) {
+    .container {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    body {
+        background: url("/assets/plant.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+    /* .list-items {
+        display: none;
+    } */
+
+
+
+    .hero-section {
+        width: 1rem;
+    }
+
+    .hero-section h1 {
+        margin-top: 55rem;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        font-weight: 600;
+
+        margin-left: 8rem;
+        margin-top: 3rem;
+        padding: 1rem 2rem;
+
+    }
+
+    /* .card {
+
+        padding: 1rem;
+        background: #f3eded84;
+        position: absolute;
+        box-shadow: 0 3px 5px #0000004c;
+        opacity: 0.6;
+    } */
+
+    .card-light {
+        position: absolute;
+        bottom: -3rem;
+        right: 0rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .card-puzzle {
+        margin-top: 6rem;
+        margin-right: -8rem;
+
+    }
 }
