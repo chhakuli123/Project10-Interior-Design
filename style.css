@@ -159,11 +159,10 @@ body {
 @media screen and (max-width: 640px) {
     .container {
         margin: 20px;
-        flex-direction: column;
+        overflow-x: auto;
     }
 
     body {
-        background: url("/assets/plant.png");
         background-position: center center;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -172,11 +171,11 @@ body {
     }
 
 
-    /* .list-items {
-        display: none;
-    } */
+    .list-items {
+        gap: 2rem;
+        margin-left: 1rem;
 
-
+    }
 
     .hero-section {
         width: 1rem;
@@ -198,14 +197,6 @@ body {
 
     }
 
-    /* .card {
-
-        padding: 1rem;
-        background: #f3eded84;
-        position: absolute;
-        box-shadow: 0 3px 5px #0000004c;
-        opacity: 0.6;
-    } */
 
     .card-light {
         position: absolute;
@@ -221,4 +212,45 @@ body {
         margin-right: -8rem;
 
     }
+}
+
+
+@media only screen and (min-device-width: 681px) and (max-device-width: 1024px) {
+    .container {
+        margin: 20px;
+        overflow-x: auto;
+    }
+
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .list-items {
+        gap: 2rem;
+        font-weight: 500;
+    }
+
+    .hero-section {
+        width: 1rem;
+        align-items: center;
+    }
+
+    .hero-section h1 {
+        margin-top: 35rem;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+
+    .card-light {
+        bottom: 1rem;
+        right: 15rem;
+        margin-right: 6rem;
+
+
+    }
+
 }
