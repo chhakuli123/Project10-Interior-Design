@@ -1,4 +1,5 @@
-# Project10 | Interior-Design ![Project 10](https://img.shields.io/badge/Project%20-10-green) ![bootcamp](https://img.shields.io/badge/JS-Bootcamp-yellow)
+# Project10 | Interior-Design
+ ![Project 10](https://img.shields.io/badge/Project%20-10-green) ![bootcamp](https://img.shields.io/badge/JS-Bootcamp-yellow) ![lco](https://img.shields.io/badge/iNeuron-LCO-green)
 
 ### By Chhakuli
 
